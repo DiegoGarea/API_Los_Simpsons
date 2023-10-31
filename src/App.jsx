@@ -11,7 +11,7 @@ export default function App() {
           <Navbar />
           <Search />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/API_Los_Simpsons/" element={<Home />} />
             <Route path="/search/find/:name" element={<SearchChar />} />
             <Route path="/character/:id" element={<SingleChar />} />
           </Routes>

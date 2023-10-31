@@ -36,7 +36,7 @@ const SingleChar = () => {
                   <span className="font-bold">Historia: </span>
                   {character.Historia}
                 </p>
-                <Link to="/">
+                <Link to="/API_Los_Simpsons/">
                   <button className="w-40 h-12 mt-12 rounded-lg bg-yellow-500 hover:bg-yellow-600">
                     Atras
                   </button>
