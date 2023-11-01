@@ -1,7 +1,14 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import LosSimpsonsProvider from './context/LosSimpsonsProvider';
-import {Home, Navbar, Search, SearchChar, SingleChar} from './components';
+import {
+  Home,
+  Navbar,
+  Search,
+  SearchChar,
+  SingleChar,
+  Footer,
+} from './components';
 
 export default function App() {
   return (
@@ -15,6 +22,7 @@ export default function App() {
             <Route path="/search/find/:name" element={<SearchChar />} />
             <Route path="/character/:id" element={<SingleChar />} />
           </Routes>
+          <Footer />
         </BrowserRouter>
       </LosSimpsonsProvider>
     </>
