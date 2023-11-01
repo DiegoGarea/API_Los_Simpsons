@@ -1,13 +1,13 @@
 const Footer = () => {
   return (
     <>
-      <div className="flex justify-evenly items-center bottom-0 left-0 right-0 max-w-6xl h-12 rounded-t-xl bg-black mx-auto font-semibold text-[20px]">
+      <div className="flex justify-evenly items-center max-w-6xl h-12 rounded-t-xl h-32 bg-yellow-500 mx-auto font-semibold text-[20px]">
         <div>
-          <p className="text-white">DiegoGG &nbsp;</p>
+          <p>DiegoGG &nbsp;</p>
         </div>
-        <div className="text-yellow-300 underline">
+        <div className="underline hover:text-purple-600">
           <a href="https://diegogg-dev.com/" target="_blank">
-            Portfolio
+            https://diegogg-dev.com/
           </a>
         </div>
       </div>
